@@ -24,4 +24,4 @@ Member C: audrikasamrin1-web
 
 Member D: 
 
-![Gantt Chart](Gantt%20chart.png)
+![Gantt Chart](Gantt%20chart%20v2.png)
