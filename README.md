@@ -16,12 +16,5 @@ Website to test: https://opencart.abstracta.us/
   7. Analysis and Reflections – group work (NAME)
 
 ## Gantt Chart
-Member A: Conor Hogan
-
-Member B: Sophia Gwiggner
-
-Member C: audrikasamrin1-web
-
-Member D: 
 
 ![Gantt Chart](Gantt%20chart%20v2.png)
