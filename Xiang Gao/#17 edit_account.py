@@ -17,7 +17,6 @@ print("Selected scenario:", scenario)
 
 options = webdriver.ChromeOptions()
 options.accept_insecure_certs = True
-
 driver = webdriver.Chrome(options=options)
 driver.maximize_window()
 driver.implicitly_wait(20)
