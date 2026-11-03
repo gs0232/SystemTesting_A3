@@ -22,7 +22,9 @@ print("Scenario:", scenario)
 print("Test name:", test_name)
 print("Test email:", test_email)
 
-driver = webdriver.Chrome()
+options = webdriver.ChromeOptions()
+options.accept_insecure_certs = True
+driver = webdriver.Chrome(options=options)
 driver.implicitly_wait(10)
 driver.get("https://opencart.abstracta.us/index.php?route=information/contact")
 
