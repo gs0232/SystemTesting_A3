@@ -13,7 +13,9 @@ assert scenario in ("1", "2", "3"), "Please enter 1, 2 or 3."
 
 print("Scenario:", scenario)
 
-driver = webdriver.Chrome()
+options = webdriver.ChromeOptions()
+options.accept_insecure_certs = True
+driver = webdriver.Chrome(options=options)
 driver.implicitly_wait(20)
 driver.get("https://opencart.abstracta.us/index.php?route=checkout/checkout")
 input("Add an in-stock physical product to the cart and open Checkout. "
